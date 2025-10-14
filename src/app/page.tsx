@@ -1,11 +1,11 @@
-import Image from "next/image";
 import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 
 export default function Home() {
 	return (
-		<div className='font-montserrat items-center justify-items-center min-h-screen min-w-screen'>
+		<div className='font-montserrat min-h-screen w-full flex flex-col'>
 			<Nav />
-			<main className='flex flex-col gap-[32px] row-start-2 items-center sm:items-start'></main>
+			<Hero />
 		</div>
 	);
 }
