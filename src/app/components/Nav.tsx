@@ -10,7 +10,7 @@ const Nav = () => {
 	};
 
 	return (
-		<nav className='bg-[#ffffff] w-full min-h-[133px] gap-2 flex flex-col sticky px-6 pt-8 pb-4'>
+		<nav className='bg-[#ffffff] w-full min-h-[133px] gap-2 flex flex-col sticky top-0 z-50 px-6 pt-8 pb-4'>
 			<div className='min-w-[950px] gap-8 flex flex-row justify-end'>
 				<span className='text-xl tracking-normal align-middle underline text-[#999999]'>
 					Support
