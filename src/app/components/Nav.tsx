@@ -76,7 +76,7 @@ const Nav = () => {
 						width={64}
 						height={64}
 						sizes='100vh'></Image>
-					<button className='bg-button text-white text-2xl font-semibold px-12 py-3 rounded-xl hover:bg-bHover transition-all duration-300'>
+					<button className='bg-button text-white text-2xl font-semibold px-12 py-3 rounded-xl hover:bg-bHover transition-all cursor-pointer duration-300'>
 						Try for free
 					</button>
 				</div>

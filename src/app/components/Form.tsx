@@ -78,7 +78,7 @@ const Form = () => {
 				/>
 				<button
 					type='submit'
-					className='bg-button text-white px-4 py-2 rounded-lg font-semibold text-lg hover:bg-bHover transition-all duration-300 mt-6 self-center'>
+					className='bg-button text-white px-4 py-2 rounded-lg font-semibold text-lg hover:bg-bHover transition-all cursor-pointer duration-300 mt-6 self-center'>
 					See plans & pricing
 				</button>
 			</form>

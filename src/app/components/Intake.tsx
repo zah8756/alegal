@@ -12,7 +12,7 @@ const Intake = () => {
 					receptionists at our legal intake call center will use your unique
 					specifications to perform a legal intake for every new client caller.
 				</span>
-				<button className='bg-button text-white px-4 md:px-6 py-2 md:py-3 rounded-lg  w-fit hover:bg-bHover transition-all duration-300'>
+				<button className='bg-button text-white px-4 md:px-6 py-2 md:py-3 rounded-lg  w-fit hover:bg-bHover transition-all cursor-pointer duration-300'>
 					<span className='text-lg md:text-2xl not-italic font-semibold'>
 						See our pricing
 					</span>

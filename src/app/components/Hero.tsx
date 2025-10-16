@@ -42,7 +42,7 @@ const Hero = () => {
 						</span>
 					</div>
 
-					<button className='bg-button text-white px-6 py-3 rounded-lg w-fit hover:bg-bHover transition-all duration-300'>
+					<button className='bg-button text-white px-6 py-3 rounded-lg w-fit hover:bg-bHover transition-all cursor-pointer duration-300'>
 						<span className='text-2xl not-italic font-semibold'>
 							See our pricing
 						</span>
