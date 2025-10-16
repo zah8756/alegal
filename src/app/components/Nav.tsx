@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 const Nav = () => {
-	const [active, setActive] = useState("");
+	const [active, setActive] = useState<string>("");
 
 	const handleActive = (path: string) => {
 		setActive(path);
