@@ -29,7 +29,7 @@ const Info = () => {
 			</div>
 
 			<div className='py-16 max-w-7xl mx-auto relative before:content-[""] before:absolute before:top-0 before:left-0 before:w-full before:h-[2px] before:bg-[#2c2c82] before:rounded-full'>
-				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-[repeat(6,auto)] gap-16 justify-items-center md:justify-center items-center content-center'>
+				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-[repeat(6,auto)] gap-16 justify-items-center md:justify-center md:items-start items-center content-center'>
 					<div className='flex flex-col gap-4 text-center md:text-left'>
 						<h3 className='text-2xl font-semibold'>Our Service</h3>
 						{!isMobile && (
