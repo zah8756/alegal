@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card = ({ image, title, description }: CardProps) => {
 	return (
-		<div className='flex justify-center content-center flex-col gap-6 items-center px-6 py-3 rounded-3xl bg-white max-w-sm min-h-93  shadow-custom -mt-18'>
+		<div className='flex justify-center content-center flex-col gap-6 items-center px-6 py-3 rounded-3xl bg-white max-w-sm min-h-93  z-50  shadow-custom md:-mt-18'>
 			<Image
 				src={image}
 				alt={Array.isArray(title) ? title.join(" ") : title}

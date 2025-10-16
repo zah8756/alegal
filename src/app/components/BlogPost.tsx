@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BlogPost = () => {
 	return (
-		<div className='flex flex-col shadow-custom rounded-3xl bg-white gap-2 justify-center items-center max-w-sm p-4'>
+		<div className='flex flex-col shadow-custom rounded-3xl bg-white gap-2 justify-center items-center w-80 md:w-auto md:max-w-sm p-4 flex-shrink-0 md:flex-shrink'>
 			<Image
 				className='rounded-3xl w-full h-full'
 				src='/Article_img_placeholder.jpg'

@@ -7,7 +7,7 @@ const Form = () => {
 	};
 
 	return (
-		<div className='flex justify-between items-center gap-16 max-w-7xl mx-auto'>
+		<div className='flex flex-col md:flex-row justify-between items-center gap-16 max-w-7xl mx-auto'>
 			<div className='flex flex-col items-start gap-8 flex-1 max-w-lg'>
 				<h1 className='text-5xl font-bold leading-tight'>
 					24/7 coverage at a fraction of the cost of in-house receptionists.
@@ -33,6 +33,7 @@ const Form = () => {
 					placeholder='First Name*'
 					required
 					className='w-full rounded-lg border-1 border-[#141414] p-2'
+					id='name'
 				/>
 				<label htmlFor='last-name' className='text-lg font-semibold'>
 					Last Name*
@@ -42,6 +43,7 @@ const Form = () => {
 					placeholder='Last Name*'
 					required
 					className='w-full rounded-lg border-1 border-[#141414] p-2'
+					id='last-name'
 				/>
 				<label htmlFor='company' className='text-lg font-semibold'>
 					Company Name*
@@ -51,6 +53,7 @@ const Form = () => {
 					placeholder='Company Name*'
 					required
 					className='w-full rounded-lg border-1 border-[#141414] p-2'
+					id='company'
 				/>
 				<label htmlFor='email' className='text-lg font-semibold'>
 					Email*
@@ -60,6 +63,7 @@ const Form = () => {
 					placeholder='Email*'
 					required
 					className='w-full rounded-lg border-1 border-[#141414] p-2'
+					id='email'
 				/>
 				<label htmlFor='phone' className='text-lg font-semibold'>
 					Cell Phone*
@@ -70,6 +74,7 @@ const Form = () => {
 					required
 					className='w-full rounded-lg border-1 border-[#141414] p-2'
 					pattern='^\d{10}$'
+					id='phone'
 				/>
 				<button
 					type='submit'
